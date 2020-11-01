@@ -6,6 +6,7 @@ buildscript {
         jcenter()
     }
     dependencies {
+        // reverting to 4.0.2 fix issue
         classpath "com.android.tools.build:gradle:4.1.0"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
 

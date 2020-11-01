@@ -4,12 +4,12 @@ plugins {
 }
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 30 // use 29 here changes nothing
 
     defaultConfig {
         applicationId "com.github.avianey.android30locationrational"
         minSdkVersion 19
-        targetSdkVersion 29
+        targetSdkVersion 30 // use 29 here changes nothing
         versionCode 1
         versionName "1.0"
 
