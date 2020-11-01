@@ -40,6 +40,7 @@ class MainActivity : AppCompatActivity() {
                 .setNegativeButton("No, not yet") { d, _ ->
                     d.dismiss()
                 }
+                .show()
     }
 
 
@@ -56,6 +57,7 @@ class MainActivity : AppCompatActivity() {
                 .setNegativeButton("No, not yet") { d, _ ->
                     d.dismiss()
                 }
+                .show()
     }
 
     private fun refreshUI() {
